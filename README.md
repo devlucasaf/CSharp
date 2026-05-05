@@ -35,8 +35,16 @@ O repositório pode acabar bagunçado — os arquivos serão salvos a fim de mos
     />
     <img
         align="center"
-        alt="Vs Code"
-        tittle="Vs Code"
+        alt="Rider"
+        tittle="Rider"
+        height="60"
+        style="padding-right: 10px"
+        src="https://skillicons.dev/icons?i=rider"
+    />
+    <img
+        align="center"
+        alt="VsCode"
+        tittle="VsCode"
         height="60"
         style="padding-right: 10px"
         src="https://skillicons.dev/icons?i=vscode"
