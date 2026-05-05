@@ -1,10 +1,8 @@
-using System;
-
 namespace CSharpRepositorio.org.math
 {
     public class MultiplicacaoTable
     {
-        public static void Main(string[] args)
+        public static void Run()
         {
             Console.WriteLine("Digite um número: ");
             int numero;

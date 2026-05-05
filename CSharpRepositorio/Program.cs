@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using CSharpRepositorio.org.math;
+using CSharpRepositorio.org.application;
+
+TipoPrimitivo.Run();
+MultiplicacaoTable.Run();
+Votacao.Run();
