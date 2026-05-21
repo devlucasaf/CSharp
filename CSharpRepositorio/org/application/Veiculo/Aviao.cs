@@ -2,21 +2,21 @@
 
 public class Aviao : VeiculoAutoMovel
 {
-    private int capacidadePassageiros;
-    private int quantidadePassageirosAtuais;
-    private int quantidadeTripulantes;
-    private double altitude;
-    private bool comida;
-    private bool tremPousoAbaixado;
-    private bool pilotoAutomatico;
-    private bool wifi;
-    private bool classeExecutiva;
-    private string tipoAviao;
+    private int     capacidadePassageiros;
+    private int     quantidadePassageirosAtuais;
+    private int     quantidadeTripulantes;
+    private double  altitude;
+    private bool    comida;
+    private bool    tremPousoAbaixado;
+    private bool    pilotoAutomatico;
+    private bool    wifi;
+    private bool    classeExecutiva;
+    private string  tipoAviao;
 
     public Aviao(string marca, string modelo, double preco, double km, int anoLancamento, int velocidade,
-                 int capacidadePassageiros, int quantidadePassageirosAtuais, int quantidadeTripulantes,
-                 double altitude, bool comida, bool tremPousoAbaixado, bool pilotoAutomatico,
-                 bool wifi, bool classeExecutiva, string tipoAviao)
+                int capacidadePassageiros, int quantidadePassageirosAtuais, int quantidadeTripulantes,
+                double altitude, bool comida, bool tremPousoAbaixado, bool pilotoAutomatico,
+                bool wifi, bool classeExecutiva, string tipoAviao)
         : base(marca, modelo, preco, km, anoLancamento, velocidade)
     {
         this.capacidadePassageiros = capacidadePassageiros;

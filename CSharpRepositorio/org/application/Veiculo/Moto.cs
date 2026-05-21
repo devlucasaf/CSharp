@@ -2,10 +2,10 @@
 
 public class Moto : VeiculoAutoMovel
 {
-    private int cilindradas;
-    private int quantidadeMarchas;
-    private int capacidadeTanque;
-    private string tipoMoto;
+    private int     cilindradas;
+    private int     quantidadeMarchas;
+    private int     capacidadeTanque;
+    private string  tipoMoto;
 
     public Moto(string marca, string modelo, double preco, double km, int anoLancamento, int velocidade,
         int cilindradas, int quantidadeMarchas, int capacidadeTanque, string tipoMoto)

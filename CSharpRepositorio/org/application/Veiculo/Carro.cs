@@ -2,18 +2,18 @@
 
 public class Carro : VeiculoAutoMovel
 {
-    private int quantidadePortas;
-    private int quantidadeMarchas;
-    private int quantidadePassageiros;
-    private int passageirosAtuais;
-    private string tipoCambio;
-    private string tipoCombustivel;
-    private double capacidadePortaMalas;
-    private bool pilotoAutomatico;
+    private int     quantidadePortas;
+    private int     quantidadeMarchas;
+    private int     quantidadePassageiros;
+    private int     passageirosAtuais;
+    private string  tipoCambio;
+    private string  tipoCombustivel;
+    private double  capacidadePortaMalas;
+    private bool    pilotoAutomatico;
 
     public Carro(string marca, string modelo, double preco, double km, int anoLancamento, int velocidade,
-                 int quantidadePortas, int quantidadeMarchas, int quantidadePassageiros, int passageirosAtuais,
-                 string tipoCambio, string tipoCombustivel, double capacidadePortaMalas, bool pilotoAutomatico)
+                int quantidadePortas, int quantidadeMarchas, int quantidadePassageiros, int passageirosAtuais,
+                string tipoCambio, string tipoCombustivel, double capacidadePortaMalas, bool pilotoAutomatico)
         : base(marca, modelo, preco, km, anoLancamento, velocidade)
     {
         this.quantidadePortas = quantidadePortas;

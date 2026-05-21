@@ -3,14 +3,13 @@
 public abstract class VeiculoAutoMovel
 {
     private static int contadorVeiculos = 0;
-    private int numeroVeiculo;
-
-    private string marca;
-    private string modelo;
-    private double preco;
-    private double km;
-    private int anoLancamento;
-    private int velocidade;
+    private int     numeroVeiculo;
+    private string  marca;
+    private string  modelo;
+    private double  preco;
+    private double  km;
+    private int     anoLancamento;
+    private int     velocidade;
 
     public VeiculoAutoMovel(string marca, string modelo, double preco,
                             double km, int anoLancamento, int velocidade)

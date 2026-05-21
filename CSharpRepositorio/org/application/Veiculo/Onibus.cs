@@ -2,15 +2,15 @@
 
 public class Onibus : VeiculoAutoMovel
 {
-    private int quantidadePortas;
-    private int quantidadeAssentos;
-    private int capacidadePassageiros;
-    private int quantidadePassageirosAtuais;
-    private int quantidadeMarchas;
-    private bool portaAberta;
-    private bool arCondicionado;
-    private bool cobrador;
-    private bool tv;
+    private int     quantidadePortas;
+    private int     quantidadeAssentos;
+    private int     capacidadePassageiros;
+    private int     quantidadePassageirosAtuais;
+    private int     quantidadeMarchas;
+    private bool    portaAberta;
+    private bool    arCondicionado;
+    private bool    cobrador;
+    private bool    tv;
 
     public Onibus(string marca, string modelo, double preco, double km, int anoLancamento, int velocidade,
                   int quantidadePortas, int quantidadeAssentos, int capacidadePassageiros, int quantidadePassageirosAtuais,

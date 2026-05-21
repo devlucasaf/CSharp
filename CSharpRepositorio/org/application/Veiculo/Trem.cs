@@ -2,12 +2,12 @@
 
 public class Trem : VeiculoAutoMovel
 {
-    private int quantidadeVagoes;
-    private int capacidadePorVagao;
-    private int quantidadePassageiros;
-    private int quantidadePassageirosAtuais;
-    private bool portasAbertas;
-    private bool naEstacao;
+    private int     quantidadeVagoes;
+    private int     capacidadePorVagao;
+    private int     quantidadePassageiros;
+    private int     quantidadePassageirosAtuais;
+    private bool    portasAbertas;
+    private bool    naEstacao;
 
     public Trem(string marca, string modelo, double preco, double km, int anoLancamento, int velocidade,
                 int quantidadeVagoes, int capacidadePorVagao, int quantidadePassageiros, int quantidadePassageirosAtuais,
