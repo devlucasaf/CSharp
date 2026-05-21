@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\.vscode\\CSharp-Repositorio\\CSharp\\CSharpRepositorio\\CSharpRepositorio.csproj": {}
+    "C:\\Users\\lucas\\RiderProjects\\CSharpGitHub\\CSharpRepositorio\\CSharpRepositorio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\.vscode\\CSharp-Repositorio\\CSharp\\CSharpRepositorio\\CSharpRepositorio.csproj": {
+    "C:\\Users\\lucas\\RiderProjects\\CSharpGitHub\\CSharpRepositorio\\CSharpRepositorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\.vscode\\CSharp-Repositorio\\CSharp\\CSharpRepositorio\\CSharpRepositorio.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\RiderProjects\\CSharpGitHub\\CSharpRepositorio\\CSharpRepositorio.csproj",
         "projectName": "CSharpRepositorio",
-        "projectPath": "C:\\Users\\lucas\\.vscode\\CSharp-Repositorio\\CSharp\\CSharpRepositorio\\CSharpRepositorio.csproj",
+        "projectPath": "C:\\Users\\lucas\\RiderProjects\\CSharpGitHub\\CSharpRepositorio\\CSharpRepositorio.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\.vscode\\CSharp-Repositorio\\CSharp\\CSharpRepositorio\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\RiderProjects\\CSharpGitHub\\CSharpRepositorio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
