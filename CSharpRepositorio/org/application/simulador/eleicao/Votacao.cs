@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpRepositorio.org.application
+namespace Org.Application.Simulador.Eleicao
 {
     public class Votacao
     {

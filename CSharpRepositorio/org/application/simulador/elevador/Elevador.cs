@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Org.Application.SistemaElevador;
+namespace Org.Application.Elevador;
 
 public class Elevador
 {
