@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpRepositorio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd4e7e8b05fc1b3877e88a87bac69dcfc99ecb3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19c2fddb7fbd6d1db1b885405e1b3d99919447bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpRepositorio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpRepositorio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
