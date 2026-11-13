@@ -30,7 +30,6 @@ O repositório pode acabar bagunçado — os arquivos serão salvos a fim de mos
 Requer o [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) (ou superior).
 
 ```bash
-cd CSharpRepositorio
 dotnet run          # abre o menu com todos os programas
 dotnet run -- 17    # executa direto um programa pelo número do menu (ex.: 17 = Jogo da forca)
 ```
