@@ -24,6 +24,18 @@ Instrutores: <br>
 O repositório pode acabar bagunçado — os arquivos serão salvos a fim de mostrar a minha evolução do curso e dos meus estudos.
 
 <div align="center">
+    <h1>▶️ Como executar</h1>
+</div>
+
+Requer o [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) (ou superior).
+
+```bash
+cd CSharpRepositorio
+dotnet run          # abre o menu com todos os programas
+dotnet run -- 17    # executa direto um programa pelo número do menu (ex.: 17 = Jogo da forca)
+```
+
+<div align="center">
     <h1>🛠️ Ferramentas</h1>
     <img
         align="center" 
