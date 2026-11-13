@@ -16,6 +16,8 @@ namespace games
 
         public static void Main(string[] args)
         {
+            numerosSorteados.Clear();
+            Array.Clear(marcacoes);
             GerarCartela();
 
             Console.WriteLine("BINGO");

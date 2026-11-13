@@ -5,15 +5,14 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>CSharpRepositorio.Program</StartupObject>
   </PropertyGroup>
 
-  <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net8.0-windows</TargetFramework>
-    <UseWPF>true</UseWPF>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <StartupObject>Application.Outros.Cardapio.CardapioApp</StartupObject>
-  </PropertyGroup>
+  <ItemGroup>
+    <!-- Saídas de build dos subprojetos (Zoologico, Locadora, Veiculos, DebateAI) -->
+    <Compile Remove="org/**/bin/**;org/**/obj/**" />
+    <!-- Cardápio é uma aplicação WPF que depende do domínio Application.System.Restaurante, ausente no repositório -->
+    <Compile Remove="org/application/outros/cardapio/**" />
+  </ItemGroup>
 
 </Project>

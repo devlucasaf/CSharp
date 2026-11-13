@@ -18,7 +18,6 @@ namespace games.termo
         private string palavraSecreta;
         private string secretaLogica;
         private int tentativasMaximas;
-        private Scanner scanner; 
 
         public TermoGame()
         {
@@ -156,7 +155,7 @@ namespace games.termo
 
         private void LimparTela()
         {
-            Console.Write("\033[H\033[2J");
+            Console.Write("\u001B[H\u001B[2J");
             Console.Out.Flush();
         }
 

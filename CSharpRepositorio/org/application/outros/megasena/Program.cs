@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 
-namespace Org.Application.MegaSena
+namespace Application.Outros.MegaSena
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             var megaSena = new MegaSena();
 

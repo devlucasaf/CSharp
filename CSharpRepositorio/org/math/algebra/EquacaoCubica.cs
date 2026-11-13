@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Math.Algebra
+namespace CSharpRepositorio.org.math.algebra
 {
     public class EquacaoCubica
     {
