@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using Org.Application.SistemaElevador;
 
 namespace Org.Application.Elevador
 {

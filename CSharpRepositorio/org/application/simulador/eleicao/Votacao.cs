@@ -14,6 +14,9 @@ namespace Org.Application.Simulador.Eleicao
 
         public static void Run()
         {
+            votosTotais.Clear();
+            eleito = "";
+
             Console.WriteLine(@"
 Escolha entre as seguintes opções de candidatos:
 22 - Leanderson
@@ -42,6 +45,11 @@ Escolha entre as seguintes opções de candidatos:
                 {
                     Console.WriteLine("Votação encerrada!");
                     break;
+                }
+                else if (voto == 22 || voto == 13 || voto == 14 || voto == 0)
+                {
+                    votosTotais.Add(voto);
+                    Console.WriteLine("Voto registrado!");
                 }
                 else
                 {
