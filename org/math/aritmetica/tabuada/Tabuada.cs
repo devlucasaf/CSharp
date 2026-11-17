@@ -1,6 +1,8 @@
-namespace CSharpRepositorio.org.math
+using System;
+
+namespace Math.Aritmetica.Tabuada
 {
-    public class MultiplicacaoTable
+    public class Tabuada
     {
         public static void Run()
         {

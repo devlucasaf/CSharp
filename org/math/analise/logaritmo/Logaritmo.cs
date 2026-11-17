@@ -1,6 +1,6 @@
 using System;
 
-namespace CSharpRepositorio.org.math
+namespace Math.Analise.Logaritmo
 {
     public class Logaritmo
     {
