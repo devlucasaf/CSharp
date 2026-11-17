@@ -1,4 +1,4 @@
-namespace Org.Application.Elevador;
+namespace Application.Simulador.Elevador;
 
 public class Passageiro
 {
