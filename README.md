@@ -54,6 +54,14 @@ dotnet run -- 17    # executa direto um programa pelo número do menu (ex.: 17 =
     />
     <img
         align="center"
+        alt="Antigravity"
+        tittle="Antigravity"
+        height="60"
+        style="padding-right: 10px"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antigravity/antigravity-original.svg"
+    />
+    <img
+        align="center"
         alt="VsCode"
         tittle="VsCode"
         height="60"
